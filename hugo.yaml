@@ -1,5 +1,5 @@
-baseURL: ''
-title: TailBliss
+baseURL: 'https://diffractiongratings.net'
+title: 'JFP Diffraction Gratings'
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -46,11 +46,12 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
+  author: JFP DG
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
+  page_title: "JFP Diffraction Gratings"
+  moto: "We're with you from planning to production."
+  description: "We use our experience in electron-beam lithography and cutting-edge research processes to help you create custom grating solutions and bring your projects to life 🚀"
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -112,21 +113,17 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: dropdown
+      pre: complexdropdown
+      name: Solutions
       weight: 20
     - identifier: categories
       pre: dropdown
-      name: Categories
+      name: Community
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
+    - identifier: about
+      name: About Us
+      url: /about/
       weight: 40
     - identifier: contact
       name: Contact
@@ -134,12 +131,12 @@ menu:
       weight: 50
   categories:
     - identifier: prose
-      name: Prose
-      url: /prose/
+      name: Blog posts
+      url: /posts/
       weight: 10
     - identifier: about
-      name: About
-      url: /about/
+      name: News
+      url: /tags/news
       weight: 20
   dropdown:
     - identifier: appearance

@@ -4,7 +4,7 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto">
             <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
                 <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
-                    <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
+                    <h1 class="mb-2 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
                         {{ .Site.Title }}
                     </h1>
                     <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
@@ -15,7 +15,7 @@
                     </p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}
+                    {{ $hero := resources.GetMatch "images/pages/diffraction.jpg" }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
                     {{ $large := ($hero.Fill "576x576 webp q90") }}
@@ -114,43 +114,6 @@
                     {{ end }}
 
                 </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Sponsors section -->
-    <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
-            <div class="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-                {{ range .Site.Params.P3.Logos }}
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50 dark:bg-gray-900/10">
-                    {{ if .image }}
-                    {{ $sponsor := resources.Get .image }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ else }}
-                    {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ end }}
-                </div>
-                {{ end }}
-            </div>
-            <div>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-                    {{ .Site.Params.P3.Heading }}
-                </h2>
-                {{ range .Site.Params.P3.Content }}
-                <p class="max-w-3xl mt-6 text-lg leading-7 text-gray-900 dark:text-white">
-                    {{ .text }}
-                </p>
-                {{ end }}
-                {{ range .Site.Params.P3.Links }}
-                <div class="my-6">
-                    <a href="{{ .url }}" class="text-base font-medium text-primary-400 dark:text-primary-100">
-                        {{ .text }}&nbsp&rarr;
-                    </a>
-                </div>
-                {{ end }}
             </div>
         </div>
     </div>
