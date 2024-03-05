@@ -669,7 +669,7 @@ video {
   padding-left: 1.625em;
 }
 
-.prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
+.prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::er {
   font-weight: 400;
   color: var(--tw-prose-counters);
 }
@@ -2588,6 +2588,21 @@ video {
   z-index: 50;
 }
 
+/* {{< columns >}} */
+.book-columns {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.book-columns div {
+  margin: 1rem 0;
+  min-width:  20rem / 2;
+  padding: 0 1rem;
+}
+
+.flex-even {
+  flex: 1 1;
+}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -2663,6 +2678,10 @@ video {
 
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.ml-5 {
+  margin-left: 2rem;
 }
 
 .mt-1 {
@@ -2741,8 +2760,16 @@ video {
   height: 1.5rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .h-9 {
   height: 2.25rem;
+}
+
+.liftYourself {
+  margin-top: -3px;
 }
 
 .h-auto {
@@ -3047,10 +3074,18 @@ video {
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
 }
 
+.bg-primary-600-nongradient {
+  --tw-bg-opacity: 1;
+  /*background-color: rgb(48 52 236 / var(--tw-bg-opacity));*/
+  background-color: rgb(186 155 201 / var(--tw-bg-opacity));
+}
+
 .bg-primary-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 52 236 / var(--tw-bg-opacity));
+  /*background-color: rgb(48 52 236 / var(--tw-bg-opacity));*/
+  background-image: linear-gradient(to right, #BA9BC9, #838BC5, #65C8D0);
 }
+
 
 .bg-transparent {
   background-color: transparent;

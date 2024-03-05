@@ -1,0 +1,8 @@
+{{ $ref := "" }}
+
+{{ with .Get "src" }}
+  {{ $ref = . }}
+{{ end }}
+
+
+<img {{ with $ref }} src="{{.}}" {{ end }} style="border-radius: 50%; padding-inline: 25px; ">

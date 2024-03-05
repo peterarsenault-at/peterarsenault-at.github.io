@@ -1,5 +1,5 @@
 baseURL: 'https://diffractiongratings.net'
-title: 'JFP Diffraction Gratings'
+title: 'Baker Diffraction Gratings'
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -46,10 +46,10 @@ markup:
       xhtml: false
 
 params:
-  author: JFP DG
-  authorimage: ../assets/images/global/author.webp
+  author: Baker DG
+  authorimage: ../assets/images/global/BakerLogoNew.png
   og_image: /images/tailbliss-cover.png
-  page_title: "JFP Diffraction Gratings"
+  page_title: "Baker Diffraction Gratings"
   moto: "We're with you from planning to production."
   description: "We use our experience in electron-beam lithography and cutting-edge research processes to help you create custom grating solutions and bring your projects to life 🚀"
   disable_theme_toggle: false
