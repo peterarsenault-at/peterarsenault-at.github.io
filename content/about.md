@@ -14,7 +14,9 @@ description: About Us
 
 ## Dr. Jake A. McCoy
 
-Our chief science officer holds a PhD in astrophysics from Penn State.
+Our chief scientist holds a PhD in diffraction gratings and nanofabrication from the department of Astrophysics at Penn State. His research and lab experience 
+
+Dr. McCoy is certified super user of the electron-beam lithography and the Penn State Nanofabrication Lab, where he has been working since 2016.  
 
 {{<socials>}}
 
