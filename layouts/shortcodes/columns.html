@@ -1,6 +1,6 @@
 <div class="book-columns flex flex-wrap">
 {{ range split .Inner "<--->" }}
-  <div class="flex-even markdown-inner" style="padding:5px;">
+  <div class="flex-even" style="padding:5px;">
     {{ . | $.Page.RenderString }}
   </div>
 {{ end }}

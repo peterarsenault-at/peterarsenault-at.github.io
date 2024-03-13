@@ -24,7 +24,6 @@ Dr. McCoy is certified super user of the electron-beam lithography and the Penn 
 
 {{</columns>}}
 
-
 ---
 
 {{<columns>}}
@@ -32,6 +31,7 @@ Dr. McCoy is certified super user of the electron-beam lithography and the Penn 
 {{<roundimage src="/images/peterlinkedin.jpeg">}}
 
 <--->
+
 ## Peter Arsenault
  
 Our chief project manager handles everything outside of the lab. 
@@ -39,7 +39,7 @@ Our chief project manager handles everything outside of the lab.
 Peter graduated from one of Canada's top business schools with really good grades. Now, he's using his knowledge to help struggling small business owners make it in this competitive world. 
 
 - [LinkedIn](https://www.linkedin.com/in/peter-arsenault/)
-- [peterarsenault.industries](https://peterarsenault.industries)
+- [Personal Website](https://peterarsenault.industries)
 
 {{</columns>}}
 
