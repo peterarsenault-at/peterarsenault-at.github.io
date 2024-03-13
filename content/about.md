@@ -18,8 +18,9 @@ Our chief scientist holds a PhD in diffraction gratings and nanofabrication from
 
 Dr. McCoy is certified super user of the electron-beam lithography and the Penn State Nanofabrication Lab, where he has been working since 2016.  
 
-{{<socials>}}
-
+- [LinkedIn](https://www.linkedin.com/in/jake-allen-mccoy/)
+- [ResearchGate](https://researchgate.net/profile/Jake-Mccoy)
+- [Google Scholar](https://scholar.google.com/citations?user=KlmPua0AAAAJ&hl=en)
 
 {{</columns>}}
 
@@ -33,7 +34,12 @@ Dr. McCoy is certified super user of the electron-beam lithography and the Penn 
 <--->
 ## Peter Arsenault
  
-Our chief project officer handles everything else.
+Our chief project manager handles everything outside of the lab. 
+
+Peter graduated from one of Canada's top business schools with really good grades. Now, he's using his knowledge to help struggling small business owners make it in this competitive world. 
+
+- [LinkedIn](https://www.linkedin.com/in/peter-arsenault/)
+- [peterarsenault.industries](https://peterarsenault.industries)
 
 {{</columns>}}
 
